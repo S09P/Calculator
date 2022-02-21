@@ -1,0 +1,85 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(rgb(49, 92, 55),rgb(179, 204, 69));
+}
+.maincont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+#edu{
+    height: 30px;
+    margin-bottom: 10px;
+
+
+}
+.first input{
+    height: 50px;
+    width: 50px;
+    background: black;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
+.second input{
+    height: 50px;
+    width: 50px;
+    background: black;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.third input{
+    height: 50px;
+    width: 50px;
+    background: black;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.fourth input{
+    height: 50px;
+    width: 50px;
+    background: black;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.fifth input{
+    height: 50px;
+    width: 50px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.fifth input:hover{
+    background: tomato;
+}
+.fourth input:hover{
+    background: tomato;
+}
+.third input:hover{
+    background: tomato;
+}
+.second input:hover{
+    background: tomato;
+}
+.first input:hover{
+    background: tomato;
+}
